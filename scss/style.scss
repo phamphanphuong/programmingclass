@@ -267,3 +267,18 @@ h6,
 .testimonial-carousel .owl-nav .owl-prev:hover {
     background: $primary;
 }
+
+.map-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Tỷ lệ 16:9 */
+}
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
